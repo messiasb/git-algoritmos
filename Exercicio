@@ -1,3 +1,72 @@
----- Exercícios de Algoritmos 
+-------  Exercícios de Algoritmos 
 
 a)  Escreva um programa que mostre na tela a mensagem "Olá, Mundo!"
+resposta:
+-------------------
+algoritmo "semnome"
+var
+inicio
+  Escreva (" Olá, Mundo!! ")
+
+fimalgoritmo
+--------------------
+
+b) Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-
+vindas para ela:
+
+resposta:
+---------------------
+algoritmo "semnome"
+var
+     nome: caractere
+inicio
+  Escreva ("Digite seu nome: ")
+  leia(nome)
+  Escreval("Seja bem-vindo(a), ", nome)
+fimalgoritmo
+
+c) Crie um programa que leia o nome e o salário de um funcionário, mostrando no final uma mensagem.
+Ex: Nome do Funcionário: Maria do Carmo Salário: 1850,45 O funcionário Maria do Carmo tem um salário de R$1850,45 em Junho.
+
+resposta 
+-----------------------
+algoritmo "salario de funcionario"
+var
+  nome: caractere
+  salario: real
+inicio
+   escreva("Digite o nome do funcionário: ")
+   leia(nome)
+   escreva("Digite o salário do funcionário: ")
+   leia(salario)
+   escreval("O funcionário ", nome, " tem um salário de R$", salario:0:2, " em Junho.")
+
+fimalgoritmo
+
+d) Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório entre eles.
+
+resposta 
+---------------------------------
+algoritmo "soma entre valores"
+var
+  n1, n2, soma:inteiro
+inicio
+      escreva("Digite um valor: ")
+      leia(n1)
+      escreva("Digite outro valor: ")
+      leia(n2)
+      soma := n1 + n2
+      escreval(" A soma entre", n1, "e", n2, "é igual a", soma, ".")
+fimalgoritmo
+
+f) Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na tela a sua média na disciplina.
+Ex:
+Nota 1: 4.5
+Nota 2: 8.5
+A média entre 4.5 e 8.5 é igual a 6.5
+
+
+
+
+
+
