@@ -1,4 +1,5 @@
- Algoritmos em Visualg
+# Algoritmos de Programação
+
 Bem-vindo ao repositório Algoritmos em Visualg! Este repositório contém uma coleção de algoritmos implementados na ferramenta Visualg, 
 que é amplamente utilizada para o ensino de lógica de programação e algoritmos.
 
