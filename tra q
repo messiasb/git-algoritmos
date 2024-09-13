@@ -1,0 +1,63 @@
+[33mcommit 987202bc251e22398f3b9dcb544c0d99e0c3853d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: messias barbosa da silva <messiasbrun27@gmail.com>
+Date:   Fri Sep 13 12:26:23 2024 -0300
+
+    questão 14 à 22
+
+ Exercicio | 144 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 144 insertions(+)
+
+[33mcommit 03cfd98316a847b2d0e4997809675242ee5c8d7d[m
+Author: messias barbosa da silva <messiasbrun27@gmail.com>
+Date:   Fri Sep 13 11:52:00 2024 -0300
+
+    questão 10 ate 14
+
+ Exercicio | 74 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 74 insertions(+)
+
+[33mcommit 70b0c098f056636c59a40b09bb0151cd9fd6a7b1[m
+Author: messiasb <83844453+messiasb@users.noreply.github.com>
+Date:   Tue Sep 3 21:26:36 2024 -0300
+
+    Update README.md
+
+ README.md | 3 [32m++[m[31m-[m
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+[33mcommit 63c300b889f7595c43cfab037f9efe1325910b9a[m
+Author: messiasb <83844453+messiasb@users.noreply.github.com>
+Date:   Tue Sep 3 21:25:08 2024 -0300
+
+    Update README.md
+
+ README.md | 17 [32m+++++++++++++++[m[31m--[m
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+
+[33mcommit ef27c07ad728e58c885cabac345d6a53178a18c5[m
+Author: messiasb <83844453+messiasb@users.noreply.github.com>
+Date:   Tue Aug 27 21:37:34 2024 -0300
+
+    Update Exercicio
+
+ Exercicio | 71 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ 1 file changed, 70 insertions(+), 1 deletion(-)
+
+[33mcommit 28851b84bbeda9e05f439516ce7726ce5e7eabc6[m
+Author: messiasb <83844453+messiasb@users.noreply.github.com>
+Date:   Tue Aug 27 12:59:19 2024 -0300
+
+    Create Exercicio.txt
+
+ Exercicio | 3 [32m+++[m
+ 1 file changed, 3 insertions(+)
+
+[33mcommit fa9d9a71edd896269a4d0096181a37e7cb7874e4[m
+Author: messiasb <83844453+messiasb@users.noreply.github.com>
+Date:   Mon Aug 26 23:27:32 2024 -0300
+
+    Initial commit
+
+ LICENSE   | 21 [32m+++++++++++++++++++++[m
+ README.md |  2 [32m++[m
+ 2 files changed, 23 insertions(+)
