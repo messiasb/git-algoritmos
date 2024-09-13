@@ -65,6 +65,80 @@ Nota 1: 4.5
 Nota 2: 8.5
 A média entre 4.5 e 8.5 é igual a 6.5
 
+-----
+[O9) Conversor de reais para dólares
+
+algoritmo "ConversaoReaisParaDolares"
+var
+    reais, dolares: real
+inicio
+    escreva("Digite a quantidade de dinheiro em R$: ")
+    leia(reais)
+    dolares := reais / 5.62
+    escreva("Você pode comprar US$", dolares:0:2)
+fimalgoritmo
+
+----
+10) Calcular Área e Quantidade de
+
+algoritmo "AreaEPintura"
+var
+    largura, altura, area, tinta: real
+inicio
+    escreva("Digite a largura da parede em metros: ")
+    leia(largura)
+    escreva("Digite a altura da parede em metros: ")
+    leia(altura)
+    area := largura * altura
+    tinta := area / 2
+    escreva("Área a ser pintada: ", area:0:2, " metros quadrados")
+    escreva("Quantidade de tinta necessária: ", tinta:0:2, " litros")
+fimalgoritmo
+
+----
+11) Cal
+
+algoritmo "CalculoDelta"
+var
+    a, b, c, delta: real
+inicio
+    escreva("Digite o valor de A: ")
+    leia(a)
+    escreva("Digite o valor de B: ")
+    leia(b)
+    escreva("Digite o valor de C: ")
+    leia(c)
+    delta := b * b - 4 * a * c
+    escreva("O valor de Delta é: ", delta:0:2)
+fimalgoritmo
+
+---
+12) 
+
+algoritmo "PrecoPromocional"
+var
+    preco, desconto, precoFinal: real
+inicio
+    escreva("Digite o preço do produto: ")
+    leia(preco)
+    desconto := preco * 0.05
+    precoFinal := preco - desconto
+    escreva("Preço promocional com 5% de desconto: R$", precoFinal:0:2)
+fimalgoritmo
+
+---
+13) Calcular Novo Salário com Aumento 
+
+algoritmo "NovoSalario"
+var
+    salario, aumento, novoSalario: real
+inicio
+    escreva("Digite o salário do funcionário: ")
+    leia(salario)
+    aumento := salario * 0.15
+    novoSalario := salario + aumento
+    escreva("Novo salário com 15% de aumento: R$", novoSalario:0:2)
+fimalgoritmo
 
 
 
