@@ -140,6 +140,150 @@ inicio
     escreva("Novo salário com 15% de aumento: R$", novoSalario:0:2)
 fimalgoritmo
 
+-------------
+14) Calcular Preço Total de Aluguel de Carro
+algoritmo "PrecoAluguelCarro"
+var
+    kmPercorridos, dias, precoTotal: real
+inicio
+    escreva("Digite a quantidade de Km percorridos: ")
+    leia(kmPercorridos)
+    escreva("Digite a quantidade de dias alugados: ")
+    leia(dias)
+    precoTotal := (dias * 90) + (kmPercorridos * 0.20)
+    escreva("Preço total a pagar: R$", precoTotal:0:2)
+fimalgoritmo
+
+
+--------------
+15) Calcular Salário com Base
+algoritmo "SalarioPorDia"
+var
+    diasTrabalhados, salario: inteiro
+inicio
+    escreva("Digite o número de dias trabalhados no mês: ")
+    leia(diasTrabalhados)
+    salario := diasTrabalhados * 8 * 25
+    escreva("Salário total: R$", salario:0)
+fimalgoritmo
+
+---------------
+16) Calcular Perda de Vida de um Fumante
+algoritmo "PerdaVidaFumante"
+var
+    cigarrosPorDia, anosFumados, minutosPerdidos, diasPerdidos: real
+inicio
+    escreva("Digite a quantidade de cigarros fumados por dia: ")
+    leia(cigarrosPorDia)
+    escreva("Digite quantos anos você já fumou: ")
+    leia(anosFumados)
+    minutosPerdidos := cigarrosPorDia * 10 * anosFumados * 365
+    diasPerdidos := minutosPerdidos / (24 * 60)
+    escreva("Você perderá aproximadamente ", diasPerdidos:0:2, " dias de vida")
+fimalgoritmo
+
+-----------------
+17) Verificar Velocidade
+algoritmo "VerificarVelocidade"
+var
+    velocidade, multa: real
+inicio
+    escreva("Digite a velocidade do carro em Km/h: ")
+    leia(velocidade)
+    se velocidade > 80 então
+        multa := (velocidade - 80) * 5
+        escreva("Você foi multado! Valor da multa: R$", multa:0:2)
+    senao
+        escreva("Você está dentro do limite de velocidade.")
+    fimse
+fimalgoritmo
+
+--------------
+18) Verificar Idade e Direito de Voto
+algoritmo "VerificarIdadeVoto"
+var
+    anoNascimento, anoAtual, idade: inteiro
+inicio
+    escreva("Digite o ano de nascimento: ")
+    leia(anoNascimento)
+    anoAtual := 2024
+    idade := anoAtual - anoNascimento
+    se idade >= 16 então
+        escreva("Você pode votar.")
+    senao
+        escreva("Você não pode votar ainda.")
+    fimse
+fimalgoritmo
+
+---------------
+19) Calcular Média e Valor
+algoritmo "CalculoMedia"
+var
+    nome: caractere
+    nota1, nota2, media: real
+inicio
+    escreva("Digite o nome do aluno: ")
+    leia(nome)
+    escreva("Digite a primeira nota: ")
+    leia(nota1)
+    escreva("Digite a segunda nota: ")
+    leia(nota2)
+    media := (nota1 + nota2) / 2
+    escreva("Média do aluno: ", media:0:2)
+    se media >= 7.0 então
+        escreva("O aluno teve um bom aproveitamento.")
+    senao
+        escreva("O aluno não teve um bom aproveitamento.")
+    fimse
+fimalgoritmo
+
+----------------
+20) Verdadeiro
+algoritmo "ParOuImpar"
+var
+    numero: inteiro
+inicio
+    escreva("Digite um número inteiro: ")
+    leia(numero)
+    se numero % 2 = 0 então
+        escreva("O número é PAR.")
+    senao
+        escreva("O número é ÍMPAR.")
+    fimse
+fimalgoritmo
+
+--------------
+21
+algoritmo "AnoBissexto"
+var
+    ano: inteiro
+inicio
+    escreva("Digite um ano: ")
+    leia(ano)
+    se (ano % 4 = 0 e ano % 100 <> 0) ou (ano % 400 = 0) então
+        escreva("O ano é bissexto.")
+    senao
+        escreva("O ano não é bissexto.")
+    fimse
+fimalgoritmo
+
+---------------
+22
+algoritmo "AlistamentoMilitar"
+var
+    anoNascimento, anoAtual, idade: inteiro
+inicio
+    escreva("Digite o ano de nascimento: ")
+    leia(anoNascimento)
+    anoAtual := 2024
+    idade := anoAtual - anoNascimento
+    se idade < 18 então
+        escreva("Faltam ", 18 - idade, " anos para o alistamento.")
+    senao
+        escreva("Já passaram ", idade - 18, " anos desde o alistamento.")
+    fimse
+fimalgoritmo
+
 
 
 
