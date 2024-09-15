@@ -285,6 +285,51 @@ inicio
 fimalgoritmo
 --------------
 
+----------------------------------------------- P R O C E D I M E N T O ---------------------------------------------------
 
+=> Script para detecção da Pessoa com Maior peso 
 
+ algoritmo "DetectorPesado"
+ var
+    I: Inteiro
+    N, Pesado: caractere
+    P, Mai : Real
+ inicio
+   Limpatela
+   Escreval("--------------------------------------")
+   Escreval("   D E T E C T O R   DE   P E S A D O ")
+   Escreval(" Maior Peso ate agora: ", Mai, " Kg ")
+   Escreval("--------------------------------------")
+     Para I <- 1 ate 5 faca
+        Escreva(" Digite o nome: ")
+        Leia(N)
+        Escreva("Digite o peso de ", N, ": ")
+        leia(P)
+        se (P>Mai) entao
+           Mai <- P
+           Pesado <- N
+        FimSe
+        Limpatela
+        Escreval("--------------------------------------")
+        Escreval("   D E T E C T O R   DE   P E S A D O ")
+        Escreval(" Maior Peso ate agora: ", Mai, " Kg ")
+        Escreval("--------------------------------------")
+   FimPara
+   Limpatela
+   Escreval("--------------------------------------")
+   Escreval("   D E T E C T O R   DE   P E S A D O ")
+   Escreval(" Maior Peso ate agora: ", Mai, " Kg ")
+   Escreval("--------------------------------------")
+   Escreval("A pessoa mais pessada foi ", Pesado, ", com ", Mai, " quilos.")
+ fimalgoritmo
 
+saida do comando 
+[O--------------------------------------
+   D E T E C T O R   DE   P E S A D O 
+ Maior Peso ate agora:  150 Kg 
+--------------------------------------
+A pessoa mais pessada foi Messias, com  150 quilos.
+
+>>> Fim da execução do programa !
+
+----------------------------------------------
