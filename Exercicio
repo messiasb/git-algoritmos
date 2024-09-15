@@ -332,4 +332,39 @@ A pessoa mais pessada foi Messias, com  150 quilos.
 
 >>> Fim da execução do programa !
 
-----------------------------------------------
+---------------------------------------------
+Agora o script melhorado Pelo PROCEDIMENTO 
+
+algoritmo "DetectorPesado"
+ var
+    I: Inteiro
+    N, Pesado: caractere
+    P, Mai : Real
+ Procedimento topo()
+ inicio
+      Limpatela
+   Escreval("--------------------------------------")
+   Escreval("   D E T E C T O R   DE   P E S A D O ")
+   Escreval(" Maior Peso ate agora: ", Mai, " Kg ")
+   Escreval("--------------------------------------")
+ Fimprocedimento
+ inicio
+   topo()
+     Para I <- 1 ate 5 faca
+        Escreva(" Digite o nome: ")
+        Leia(N)
+        Escreva("Digite o peso de ", N, ": ")
+        leia(P)
+        se (P>Mai) entao
+           Mai <- P
+           Pesado <- N
+        FimSe
+        topo()
+   FimPara
+   topo()
+   Escreval("A pessoa mais pessada foi ", Pesado, ", com ", Mai, " quilos.")
+ fimalgoritmo
+
+obs: substiruimos os precessos repeditos pelo topo() script 
+
+
